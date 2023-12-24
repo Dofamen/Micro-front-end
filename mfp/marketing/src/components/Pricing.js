@@ -19,9 +19,8 @@ function Copyright() {
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
         Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
+      </Link>
+      {' ' + new Date().getFullYear() + '.'}
     </Typography>
   );
 }
